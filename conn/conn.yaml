@@ -1,0 +1,24 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  name: conn
+spec:
+  platforms:
+  - sha256: d6f5c08785239e61d3a7f34c7f0da7780468af1e713a52e91c3428cd6ca7ca48
+    uri: https://github.com/sysnet4admin/k8s-plugins/releases/download/v1.0.1/k8s-plugins.tar.gz
+    bin: conn.sh
+    files:
+    - from: "*/krew/conn/*"
+      to: "."
+    selector:
+      matchExpressions:
+      - {key: os, operator: In, values: [darwin, linux]}
+  version: "v1.0.1"
+  homepage: https://github.com/sysnet4admin/k8s-plugins
+  shortDescription: Container Connector in a pod 
+  description: |
+    Uses 'conn' could connect container in a pod as bounce shell.  
+    If pod have multicontainer, it shows up container list in a pod. 
+    Furthermore, you are able to choose namespace (i.e. prod, dev and others) for your own purpose. 
+    Usage is https://github.com/sysnet4admin/k8s-plugins/tree/main/krew/conn
+    Origin source came from https://github.com/sysnet4admin/IaC/blob/master/tools/k8s_rc.sh 
