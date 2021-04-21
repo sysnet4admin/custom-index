@@ -4,7 +4,7 @@ metadata:
   name: conn
 spec:
   platforms:
-  - sha256: 2a8a55052ea2f599db67c65b218a22d7c6cabecc3224cecf991eb8872b47b891
+  - sha256: 069ce9e178ba34ea52aab229227579de8d371cee6ba930ffb0496078c8bbe7a8
     uri: https://github.com/sysnet4admin/custom-index/releases/download/v0.0.1/custom-index.tar.gz
     bin: conn.sh
     files:
