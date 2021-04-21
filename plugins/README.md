@@ -1,7 +1,9 @@
 # conn
 Connect containter in a pod as bounce shell.
 
-## Add custome-index
+## How to install 
+
+### Add custome-index
 ```sh
 [root@m-k8s]# kubectl krew index add cst https://github.com/sysnet4admin/custom-index.git
 kubectl krew index add cst https://github.com/sysnet4admin/custom-index.git
@@ -10,7 +12,7 @@ The plugins in this index are not audited for security by the Krew maintainers.
 Install them at your own risk.
 ```
 
-## Check indexes list 
+### Check indexes list 
 ```sh
 [root@m-k8s]# kubectl krew index list 
 INDEX    URL
@@ -18,7 +20,7 @@ cst      https://github.com/sysnet4admin/custom-index.git
 default  https://github.com/kubernetes-sigs/krew-index.git
 ```
 
-## Plugin Install
+### Plugin install
 ```sh
 [root@m-k8s]# kubectl krew install cst/conn
 Updated the local copy of plugin index "cst".
@@ -35,8 +37,9 @@ Installed plugin: conn
 /
 ```
 
-## need permission
-```sh 
+### need permission
+
+```sh  
 [root@m-k8s ~]# chmod +x .krew/store/conn/v1.0.1/conn.sh
 ```
 
