@@ -13,7 +13,7 @@ spec:
     selector:
       matchExpressions:
       - {key: os, operator: In, values: [darwin, linux]}
-  version: "v1.0.1"
+  version: "v0.0.1"
   homepage: https://github.com/sysnet4admin/k8s-plugins
   shortDescription: Container Connector in a pod 
   description: |

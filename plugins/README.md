@@ -40,7 +40,7 @@ Installed plugin: conn
 ### need permission
 
 ```sh  
-[root@m-k8s ~]# chmod +x .krew/store/conn/v1.0.1/conn.sh
+[root@m-k8s ~]# chmod +x .krew/store/conn/v0.0.1/conn.sh
 ```
 
 
