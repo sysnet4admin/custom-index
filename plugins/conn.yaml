@@ -4,11 +4,11 @@ metadata:
   name: conn
 spec:
   platforms:
-  - sha256: d6f5c08785239e61d3a7f34c7f0da7780468af1e713a52e91c3428cd6ca7ca48
-    uri: https://github.com/sysnet4admin/k8s-plugins/releases/download/v1.0.1/k8s-plugins.tar.gz
+  - sha256: 4d362fb2ac6cbfa9dc8ef70f9c4d7785930e859fa7741cc13511155ccb094b22
+    uri: https://github.com/sysnet4admin/custom-index/releases/download/v0.0.1/custom-index.tar.gz
     bin: conn.sh
     files:
-    - from: "*/krew/conn/*"
+    - from: "*/plugins/*"
       to: "."
     selector:
       matchExpressions:
