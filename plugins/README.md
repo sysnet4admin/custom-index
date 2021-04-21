@@ -2,7 +2,7 @@
 
 ## How to install 
 
-### Add custome-index
+### Add custom-index
 ```sh
 [root@m-k8s]# kubectl krew index add cst https://github.com/sysnet4admin/custom-index.git
 kubectl krew index add cst https://github.com/sysnet4admin/custom-index.git
@@ -36,8 +36,7 @@ Installed plugin: conn
 /
 ```
 
-### Need permission for new plugin 
-
+### Need permission for new plugin
 ```sh  
 [root@m-k8s ~]# chmod +x ~/.krew/store/conn/v0.0.1/conn.sh
 ```
