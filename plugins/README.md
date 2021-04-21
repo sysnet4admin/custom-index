@@ -36,7 +36,7 @@ Installed plugin: conn
 /
 ```
 
-### need permission
+### Need permission for new plugin 
 
 ```sh  
 [root@m-k8s ~]# chmod +x .krew/store/conn/v0.0.1/conn.sh
