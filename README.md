@@ -1,3 +1,3 @@
 # krew custom-index
-## conn
+## conn: Connect containter in a pod as bounce shell.
 
