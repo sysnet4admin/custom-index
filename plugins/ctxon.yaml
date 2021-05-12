@@ -1,7 +1,7 @@
 apiVersion: krew.googlecontainertools.github.com/v1alpha2
 kind: Plugin
 metadata:
-  name: kubectxon
+  name: ctxon
 spec:
   platforms:
   - sha256: 48ff5e51920b76506f99e18ff927a6b79a354d306e3cb0063af6517b53c605cb
