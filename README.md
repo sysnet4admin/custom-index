@@ -1,4 +1,6 @@
 # krew custom-index
-## conn: 
+## kubeconn 
  - Connect containter in a pod as bounce shell.
 
+## kubectxonon
+ - Show on the active-context  
