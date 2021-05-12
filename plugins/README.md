@@ -24,11 +24,11 @@ default  https://github.com/kubernetes-sigs/krew-index.git
 [root@m-k8s ~]# kubectl krew install cix/ctxon
 Updated the local copy of plugin index "cix".
 Updated the local copy of plugin index.
-Installing plugin: kubectxon
-Installed plugin: kubectxon
+Installing plugin: ctxon
+Installed plugin: ctxon
 \
  | Use this plugin:
- |      kubectl kubectxon
+ |      kubectl ctxon
  | Documentation:
  |      https://github.com/sysnet4admin/kubectxon
 /
