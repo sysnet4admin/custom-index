@@ -4,8 +4,8 @@ metadata:
   name: ctxon
 spec:
   platforms:
-  - sha256: 48ff5e51920b76506f99e18ff927a6b79a354d306e3cb0063af6517b53c605cb
-    uri: https://github.com/sysnet4admin/kubectxon/releases/download/v0.0.2/kubectxon_v0.0.2_linux_arm64.tar.gz
+  - sha256: 64e336dca2d0d152687b6d837ae5d1d05b59ca409064056f4cb2598ca00fe764
+    uri: https://github.com/sysnet4admin/kubectxon/releases/download/v0.0.3/kubectxon_v0.0.3_linux_arm64.tar.gz
     bin: kubectxon
     files:
     - from: "kubectxon"
@@ -14,7 +14,7 @@ spec:
       to: "."
     selector:
       matchExpressions:
-      - {key: os, operator: In, values: [linux]}
-  version: "v0.0.2"
+      - {key: os, operator: In, values: [darwin,linux]}
+  version: "v0.0.3"
   homepage: https://github.com/sysnet4admin/kubectxon
   shortDescription: Easy to check active-context in kubernetes thru the prompt
