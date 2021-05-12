@@ -21,11 +21,9 @@ default  https://github.com/kubernetes-sigs/krew-index.git
 
 ### Plugin install thru adding index 
 ```sh
-[root@m-k8s]# kubectl krew install cix/kubectxon
+[root@m-k8s ~]# kubectl krew install cix/ctxon
 Updated the local copy of plugin index "cix".
 Updated the local copy of plugin index.
-  New plugins available:
-    * cix/kubectxon
 Installing plugin: kubectxon
 Installed plugin: kubectxon
 \
