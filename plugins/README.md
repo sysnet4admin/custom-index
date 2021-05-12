@@ -1,11 +1,11 @@
-# Custom kubernetes plugin 
+# krew custom plugins
 
-## How to install 
+## Installation procedure 
 
 ### Add custom-index
 ```sh
-[root@m-k8s]# kubectl krew index add cst https://github.com/sysnet4admin/custom-index.git
-kubectl krew index add cst https://github.com/sysnet4admin/custom-index.git
+[root@m-k8s]# kubectl krew index add cix https://github.com/sysnet4admin/custom-index.git
+kubectl krew index add cix https://github.com/sysnet4admin/custom-index.git
 WARNING: You have added a new index from "https://github.com/sysnet4admin/custom-index.git"
 The plugins in this index are not audited for security by the Krew maintainers.
 Install them at your own risk.
@@ -15,24 +15,24 @@ Install them at your own risk.
 ```sh
 [root@m-k8s]# kubectl krew index list 
 INDEX    URL
-cst      https://github.com/sysnet4admin/custom-index.git
+cix      https://github.com/sysnet4admin/custom-index.git
 default  https://github.com/kubernetes-sigs/krew-index.git
 ```
 
-### Plugin install
+### Plugin install thru adding index 
 ```sh
-[root@m-k8s]# kubectl krew install cst/conn
-Updated the local copy of plugin index "cst".
+[root@m-k8s]# kubectl krew install cix/kubeconn
+Updated the local copy of plugin index "cix".
 Updated the local copy of plugin index.
   New plugins available:
-    * cst/conn
-Installing plugin: conn
-Installed plugin: conn
+    * cix/conn
+Installing plugin: kubeconn
+Installed plugin: kubeconn
 \
  | Use this plugin:
- |      kubectl conn
+ |      kubectl kubeconn
  | Documentation:
- |      https://github.com/sysnet4admin/k8s-plugins
+ |      https://github.com/sysnet4admin/kubeconn
 /
 ```
 
